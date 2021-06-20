@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // connect to the mongodb database
-mongoose.connect('mongodb://localhost:27017/weddingsite', {
+mongoose.connect('mongodb://localhost:27017/fathersdaysite', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 });
@@ -40,4 +40,4 @@ const tickets = require("./tickets.js");
 app.use("/api/tickets", tickets.routes);
 
 
-app.listen(3002, () => console.log('Server listening on port 3002!'));
+app.listen(3004, () => console.log('Server listening on port 3004!'));

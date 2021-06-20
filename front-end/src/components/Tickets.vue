@@ -1,7 +1,7 @@
 <template>
 <div class="main">
   <div class="botton1">
-      <h4>Notes for Jake & Stacy</h4>
+      <h4>Notes for Jake</h4>
   <button @click="setCreating" class="pure-button button-xsmall">Add A Note
   </button>
   </div>

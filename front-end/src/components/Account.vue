@@ -4,8 +4,6 @@
     <div class="heroBox">
       <div class="start-bottons">
         <p><strong>Signed in as</strong> {{user.firstName}} {{user.lastName}}</p>
-        <p><strong>Email: </strong>{{user.email}}</p>
-        <p><strong>Address: </strong>{{user.address}}</p>
         <button class="pure-button pure-button-secondary" @click="logout">Logout</button>
         <legend></legend>
       </div>
@@ -20,14 +18,6 @@
         <fieldset>
           <input placeholder="new last name" v-model="lastName">
           <button type="submit" class="pure-button pure-button-primary" @click.prevent="editLastName">Save</button>
-        </fieldset>
-        <fieldset>
-          <input placeholder="new email" v-model="email">
-          <button type="submit" class="pure-button pure-button-primary" @click.prevent="editEmail">Save</button>
-        </fieldset>
-        <fieldset>
-          <input placeholder="new address" v-model="address">
-          <button type="submit" class="pure-button pure-button-primary" @click.prevent="editAddress">Save</button>
         </fieldset>
         <fieldset>
             <button class="pure-button pure-button-secondary" @click="cancelEditing">Cancel</button>

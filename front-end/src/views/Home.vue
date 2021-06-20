@@ -1,7 +1,13 @@
 <template>
 <div class="home">
   <div class="main-photo">
-    <img src="@/assets/kiss.jpg">
+    <img src="@/assets/family1.jpg">
+  </div>
+  <div class="myNote">
+    <div class="myNote-heading">
+      <p>Happy Father's Day Jake!!</p>
+    </div>
+    <p>I hope you've had a great day so far! feel free to look a the small gallery and at the page of notes for you!</p>
   </div>
   <div class="card-deck">
 <div class="card">
@@ -10,7 +16,6 @@
   <router-link class="dropdown-item" to="/gallery">
   <h5 class="card-title">Gallery</h5>
   </router-link>
-  <p class="card-text">A gallery of the couple, aren't they cute?</p>
 </div>
 </div>
 
@@ -20,7 +25,7 @@
   <router-link class="dropdown-item" to="/notes">
   <h5 class="card-title">Kind Notes</h5>
   </router-link>
-  <p class="card-text">Take a second to write a kind note to the couple, whether it be a word of advice, or just a friendly note reminding them how awesome they are. </p>
+
 </div>
 </div>
 <div class="card">
@@ -29,7 +34,6 @@
   <router-link class="dropdown-item" to="/dashboard">
   <h5 class="card-title">Login</h5>
   </router-link>
-  <p class="card-text">To do anything on this site, you'll have to create an account, please remeber to fill in every space!</p>
 </div>
 </div>
 </div>
@@ -94,6 +98,13 @@ img {
 .card-deck {
   margin: 10px;
   margin-top: 25px;
+}
+.myNote {
+  padding: 15px;
+  text-align: center;
+}
+.myNote-heading {
+  font-size: 25px;
 }
 
 

@@ -8,10 +8,6 @@
         <input placeholder="last name" v-model="lastName">
       </fieldset>
       <fieldset>
-        <input placeholder="email" v-model="email">
-        <input placeholder="address" v-model="address">
-      </fieldset>
-      <fieldset>
         <input placeholder="username" v-model="username">
         <input type="password" placeholder="password" v-model="password">
       </fieldset>

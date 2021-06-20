@@ -1,23 +1,25 @@
 <template>
 <div>
-  <section v-if="user" class="this">
+  <section class="this">
     <div class="heading">
       <p>Gallery</p>
     </div>
     <div class="image-gallery">
       <div class="image">
-        <img src="@/assets/formal.jpg">
-        <img src="@/assets/holding.jpg">
-        <img src="@/assets/sign.jpg">
-        <img src="@/assets/stand.jpg">
-        <img src="@/assets/together.jpg">
-        <img src="@/assets/wave.jpg">
-        <img src="@/assets/wedding.jpg">
+        <img src="@/assets/family1.jpg">
+        <img src="@/assets/family2.jpg">
+        <img src="@/assets/family3.jpg">
+        <img src="@/assets/family4.jpg">
+        <img src="@/assets/mission.jpg">
+        <img src="@/assets/dad1.jpg">
+        <img src="@/assets/dadandme.jpg">
+        <img src="@/assets/dadandme2.jpg">
+        <img src="@/assets/dadandme3.jpg">
+        <img src="@/assets/dadandme4.jpg">
         <img src="@/assets/kiss.jpg">
       </div>
     </div>
   </section>
-  <Login v-else/>
 </div>
 </template>
 
@@ -25,11 +27,9 @@
 
 <script>
 import axios from 'axios';
-import Login from '@/components/Login.vue';
 export default {
   name: 'Gallery',
   components: {
-    Login,
   },
   data() {
     return {
